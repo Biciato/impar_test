@@ -1,0 +1,30 @@
+.search-input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 3em;
+    position: relative;
+    top: 3em;
+    margin: auto;
+    padding: 0 1em;
+    border-radius: 8px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+
+input {
+    width: 100%;
+    position: relative;
+    border: none;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #757575;
+}
+
+input:focus {
+    outline: none;
+}
+
+.search-img {
+    width: 2vw;
+}
